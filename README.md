@@ -36,6 +36,6 @@ If you have a client hosting situation, you might want to consider running this 
 
 Open cron_updatewps and change /root into the home of the user you are using to update all WPs (so the current directory as you are following this). 
 
-Move cron_updatewps to /etc/cron.xxx where xxx = daily, hourly or whatever you want it to be. The wp-cli script, when there is nothing to update, is very light weight, so running hourly works fine. 
+Move cron_updatewps to /etc/cron.xxx where xxx = daily, hourly or whatever you want it to be. The wp-cli script is, when there is nothing to update, very light weight, so running hourly works well. 
 
 
