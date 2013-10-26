@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /root
+./runonwp.pl ./updatewp.sh
